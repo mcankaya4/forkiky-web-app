@@ -12,6 +12,8 @@ import { MODAL_CLOSE_SEC } from './config';
 //   module.hot.accept();
 // }
 
+console.log('Thanks Jonas!');
+
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
